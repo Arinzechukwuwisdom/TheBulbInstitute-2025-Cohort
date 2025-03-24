@@ -1,0 +1,15 @@
+C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\bin\Debug\net5.0\Methods&Constructors.exe
+C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\bin\Debug\net5.0\Methods&Constructors.deps.json
+C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\bin\Debug\net5.0\Methods&Constructors.runtimeconfig.json
+C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\bin\Debug\net5.0\Methods&Constructors.runtimeconfig.dev.json
+C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\bin\Debug\net5.0\Methods&Constructors.dll
+C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\bin\Debug\net5.0\Methods&Constructors.pdb
+C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\obj\Debug\net5.0\Methods&Constructors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\obj\Debug\net5.0\Methods&Constructors.AssemblyInfoInputs.cache
+C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\obj\Debug\net5.0\Methods&Constructors.AssemblyInfo.cs
+C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\obj\Debug\net5.0\Methods&Constructors.csproj.CoreCompileInputs.cache
+C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\obj\Debug\net5.0\Methods&Constructors.dll
+C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\obj\Debug\net5.0\refint\Methods&Constructors.dll
+C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\obj\Debug\net5.0\Methods&Constructors.pdb
+C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\obj\Debug\net5.0\Methods&Constructors.genruntimeconfig.cache
+C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\obj\Debug\net5.0\ref\Methods&Constructors.dll

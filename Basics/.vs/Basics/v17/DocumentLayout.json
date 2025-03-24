@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Source\\Workspace\\C#.NET2025\\Basics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF9FF1BD-E297-422A-88DB-A064E9D8EA88}|Methods\u0026Constructors\\Methods\u0026Constructors.csproj|c:\\source\\workspace\\c#.net2025\\basics\\methods\u0026constructors\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF9FF1BD-E297-422A-88DB-A064E9D8EA88}|Methods\u0026Constructors\\Methods\u0026Constructors.csproj|solutionrelative:methods\u0026constructors\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0D22F98-2593-4AA8-B27F-4932DEB9D384}|Basics\\Basics.csproj|c:\\source\\workspace\\c#.net2025\\basics\\basics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0D22F98-2593-4AA8-B27F-4932DEB9D384}|Basics\\Basics.csproj|solutionrelative:basics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Source\\Workspace\\C#.NET2025\\Basics\\Methods\u0026Constructors\\Program.cs",
+              "RelativeDocumentMoniker": "Methods\u0026Constructors\\Program.cs",
+              "ToolTip": "C:\\Source\\Workspace\\C#.NET2025\\Basics\\Methods\u0026Constructors\\Program.cs",
+              "RelativeToolTip": "Methods\u0026Constructors\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T09:37:14.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Source\\Workspace\\C#.NET2025\\Basics\\Basics\\Program.cs",
+              "RelativeDocumentMoniker": "Basics\\Program.cs",
+              "ToolTip": "C:\\Source\\Workspace\\C#.NET2025\\Basics\\Basics\\Program.cs",
+              "RelativeToolTip": "Basics\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T09:33:59.104Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
