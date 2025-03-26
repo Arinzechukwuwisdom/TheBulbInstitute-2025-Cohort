@@ -13,3 +13,4 @@ C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\obj\Debug\net5.0\refi
 C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\obj\Debug\net5.0\Methods&Constructors.pdb
 C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\obj\Debug\net5.0\Methods&Constructors.genruntimeconfig.cache
 C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\obj\Debug\net5.0\ref\Methods&Constructors.dll
+C:\Source\Workspace\C#.NET2025\Basics\Methods&Constructors\obj\Debug\net5.0\Methods&Constructors.sourcelink.json

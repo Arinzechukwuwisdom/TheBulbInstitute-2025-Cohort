@@ -1,0 +1,13 @@
+C:\Source\Workspace\C#.NET2025\DynamicCreator\bin\Debug\netcoreapp3.1\DynamicCreator.exe
+C:\Source\Workspace\C#.NET2025\DynamicCreator\bin\Debug\netcoreapp3.1\DynamicCreator.deps.json
+C:\Source\Workspace\C#.NET2025\DynamicCreator\bin\Debug\netcoreapp3.1\DynamicCreator.runtimeconfig.json
+C:\Source\Workspace\C#.NET2025\DynamicCreator\bin\Debug\netcoreapp3.1\DynamicCreator.runtimeconfig.dev.json
+C:\Source\Workspace\C#.NET2025\DynamicCreator\bin\Debug\netcoreapp3.1\DynamicCreator.dll
+C:\Source\Workspace\C#.NET2025\DynamicCreator\bin\Debug\netcoreapp3.1\DynamicCreator.pdb
+C:\Source\Workspace\C#.NET2025\DynamicCreator\obj\Debug\netcoreapp3.1\DynamicCreator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\Workspace\C#.NET2025\DynamicCreator\obj\Debug\netcoreapp3.1\DynamicCreator.AssemblyInfoInputs.cache
+C:\Source\Workspace\C#.NET2025\DynamicCreator\obj\Debug\netcoreapp3.1\DynamicCreator.AssemblyInfo.cs
+C:\Source\Workspace\C#.NET2025\DynamicCreator\obj\Debug\netcoreapp3.1\DynamicCreator.csproj.CoreCompileInputs.cache
+C:\Source\Workspace\C#.NET2025\DynamicCreator\obj\Debug\netcoreapp3.1\DynamicCreator.dll
+C:\Source\Workspace\C#.NET2025\DynamicCreator\obj\Debug\netcoreapp3.1\DynamicCreator.pdb
+C:\Source\Workspace\C#.NET2025\DynamicCreator\obj\Debug\netcoreapp3.1\DynamicCreator.genruntimeconfig.cache
