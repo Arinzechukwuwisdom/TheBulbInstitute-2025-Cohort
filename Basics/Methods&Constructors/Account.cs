@@ -59,10 +59,15 @@ namespace Methods_Constructors
             Console.WriteLine($"{FirstName} {LastName}");
         }
 
-        public void Do(int num)
-        {
-
-        }
+        //public void Do(int num)
+        //{
+        //    var name = "fortunate is a Boy";
+        //    var spliitedName = name.Split(" ");
+        //    foreach (string s in spliitedName)
+        //    {
+        //        s[0] = char.ToUpper(s[0]);
+        //    }
+        //}
 
         public void Do(int num, string name)
         {

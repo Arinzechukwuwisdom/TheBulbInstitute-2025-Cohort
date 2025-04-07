@@ -6,10 +6,23 @@ namespace Methods_Constructors
     {
         static void Main(string[] args)
         {
-            var work = new Account("Fortunate", "Omonuwa");
+            //string phrase = "The Bulb Is Something nice";
+            //var words = phrase.Split(' ');
+            //Console.WriteLine(words.Length);
 
-            work.DisplayName();
+            string text = "fortunate";
+            text = "nameof";
 
+            //Console.WriteLine(text);
+            int num = 0;
+            // num = 3;
+            //Console.WriteLine(num);
+            do
+            {
+                num++;
+                Console.WriteLine(num);
+            }
+            while (num < 10);
         }
     }
 

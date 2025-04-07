@@ -18,20 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Source\\Workspace\\C#.NET2025\\Basics\\Methods\u0026Constructors\\Account.cs",
-              "RelativeDocumentMoniker": "Methods\u0026Constructors\\Account.cs",
-              "ToolTip": "C:\\Source\\Workspace\\C#.NET2025\\Basics\\Methods\u0026Constructors\\Account.cs*",
-              "RelativeToolTip": "Methods\u0026Constructors\\Account.cs*",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAwwDoAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T09:36:44.775Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Bookmark",
@@ -43,13 +34,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Source\\Workspace\\C#.NET2025\\Basics\\Methods\u0026Constructors\\Account.cs",
+              "RelativeDocumentMoniker": "Methods\u0026Constructors\\Account.cs",
+              "ToolTip": "C:\\Source\\Workspace\\C#.NET2025\\Basics\\Methods\u0026Constructors\\Account.cs",
+              "RelativeToolTip": "Methods\u0026Constructors\\Account.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwEUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T09:36:44.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Source\\Workspace\\C#.NET2025\\Basics\\Methods\u0026Constructors\\Program.cs",
               "RelativeDocumentMoniker": "Methods\u0026Constructors\\Program.cs",
               "ToolTip": "C:\\Source\\Workspace\\C#.NET2025\\Basics\\Methods\u0026Constructors\\Program.cs",
               "RelativeToolTip": "Methods\u0026Constructors\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T09:37:14.738Z",
               "EditorCaption": ""
