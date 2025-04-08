@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functionalities", "Function
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{5C33E1D4-A0FC-4C59-A820-5087AAD6A858}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteBoard", "WhiteBoard\WhiteBoard.csproj", "{05338885-3328-4BE0-A0AC-74B7287FD5AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5C33E1D4-A0FC-4C59-A820-5087AAD6A858}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C33E1D4-A0FC-4C59-A820-5087AAD6A858}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C33E1D4-A0FC-4C59-A820-5087AAD6A858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05338885-3328-4BE0-A0AC-74B7287FD5AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05338885-3328-4BE0-A0AC-74B7287FD5AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05338885-3328-4BE0-A0AC-74B7287FD5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05338885-3328-4BE0-A0AC-74B7287FD5AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

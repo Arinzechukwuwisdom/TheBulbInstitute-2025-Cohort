@@ -6,6 +6,7 @@ namespace Dialogs_
 {
     public class D1
     {
+        private CustomerActions customerActions = new CustomerActions();
         public void EntryDialog()
         {
             Console.WriteLine("Welcome to Jaiye Jaiye Bank");
@@ -26,13 +27,13 @@ namespace Dialogs_
             Console.WriteLine("5: Withdraw");
             Console.WriteLine("6: Close Account");
             Console.WriteLine("7: Exit Application");
-
             var choice = Convert.ToInt32 (Console.ReadLine());
-
+            HandleUserChoice(choice);
         }
 
         public void HandleUserChoice(int choice)
         {
+          
             switch(choice)
             {
                 case 1:
@@ -41,11 +42,18 @@ namespace Dialogs_
                     Thread.Sleep(1000);
                     Console.Write("Enter your Firstname:");
                     var firstname = Console.ReadLine();
+                    Thread.Sleep(1000);
                     Console.Write("Enter your Lastname:");
                     var lastname = Console.ReadLine();
+                    Thread.Sleep(1000);
                     Console.Write("Enter your Phonenumber:");
-
                     var phonenumber = Console.ReadLine();
+                    Thread.Sleep(1000);
+                    Console.Write("What type of account would you like to open:");
+                    var accountType = Console.ReadLine() ;
+                    var accTypeVal = string.IsNullOrEmpty(accountType) ? null : accountType;
+                    Thread.Sleep(1000);
+                    
                     var customer = new Customer
                     {
                         Email = email,
@@ -53,10 +61,11 @@ namespace Dialogs_
                         Lastname = lastname,
                         Phonenumber = phonenumber
                     };
-                    var customerAccount = CustomerActions.CreateCustomerAccount(customer);
-                    Console.WriteLine("Your account number is :" + customerAccount.Account.AccountNumber);
+                    var customerAccount = customerActions.CreateCustomerAccount(customer, accTypeVal);
+                    Console.WriteLine("You have successfully created your account");
+                    Console.WriteLine($"Account Number: {customerAccount.Account.AccountNumber}");
+                    Console.WriteLine($"Account Type: {customerAccount.Account.AccountType}");
                 break;
-
             }
         }
     }
