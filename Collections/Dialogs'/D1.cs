@@ -7,6 +7,7 @@ namespace Dialogs_
     public class D1
     {
         private CustomerActions customerActions = new CustomerActions();
+        private General generalActions = new General();
         public void EntryDialog()
         {
             Console.WriteLine("Welcome to Jaiye Jaiye Bank");
@@ -19,23 +20,47 @@ namespace Dialogs_
 
         public void EntryDialog2()
         {
+            string choice;
+            int parsedChoice;
+            bool isRightNumber = false;
+            do
+            {
+                Console.WriteLine("Please make a selection to proceed");
+                Console.WriteLine("1: Create Account");
+                Console.WriteLine("2: Check Balance");
+                Console.WriteLine("3: Deposit");
+                Console.WriteLine("4: Transfer");
+                Console.WriteLine("5: Withdraw");
+                Console.WriteLine("6: Close Account");
+                Console.WriteLine("7: Get Account Details");
+                Console.WriteLine("8: Get All accounts");
+                Console.WriteLine("9: Exit Application");
 
-            Console.WriteLine("Please make a selection to proceed");
-            Console.WriteLine("1: Create Account");
-            Console.WriteLine("2: Check Balance");
-            Console.WriteLine("3: Deposit");
-            Console.WriteLine("4: Transfer");
-            Console.WriteLine("5: Withdraw");
-            Console.WriteLine("6: Close Account");
-            Console.WriteLine("7: Exit Application");
+                choice = Console.ReadLine();
 
-            var choice = Convert.ToInt32 (Console.ReadLine());
-            HandleUserChoice(choice);
+                var isCorrectChoice = int.TryParse(choice, out parsedChoice);
+
+                if (isCorrectChoice)
+                {
+                    if(parsedChoice >=1 || parsedChoice <= 9)
+                    {
+                        isRightNumber = true;
+                        HandleUserChoice(parsedChoice);
+                    }
+                    else
+                    {
+                        Console.Write("You dey gba. Pick correct number");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("You have entered an invalid character");
+                }
+            } while (!isRightNumber);
         }
 
         public void HandleUserChoice(int choice)
         {
-          
             switch(choice)
             {
                 case 1:
@@ -51,11 +76,12 @@ namespace Dialogs_
                     Console.Write("Enter your Phonenumber:");
                     var phonenumber = Console.ReadLine();
                     Thread.Sleep(1000);
+                    
                     Console.Write("What type of account would you like to open:");
                     var accountType = Console.ReadLine() ;
-                    var accTypeVal = string.IsNullOrEmpty(accountType) ? null : accountType;
+                    var accTypeVal = string.IsNullOrEmpty(accountType) ? default : accountType;
                     Thread.Sleep(1000);
-                    
+
                     var customer = new Customer
                     {
                         Email = email,
@@ -86,13 +112,13 @@ namespace Dialogs_
                         {
                             if (parsedChoice == 1)
                             {
-                                EntryDialog2();
                                 isRightNumber = true;
+                                EntryDialog2();
                             }
                             else if (parsedChoice == 2)
                             {
-                                Console.WriteLine("Thank you for banking with us");
                                 isRightNumber = true;
+                                Console.WriteLine("Thank you for banking with us");
                             }
                             else
                             {
@@ -106,6 +132,16 @@ namespace Dialogs_
 
                     } while (isRightNumber == false);
                                         
+                break;
+                case 8:
+                    var accounts = generalActions.GetAllAccounts();
+                    foreach ( var account in accounts )
+                    {
+                        Console.WriteLine("\n\nAccount Details");
+                        Console.WriteLine($"{account.AccountNumber}");
+                        Console.WriteLine($"{account.AccountName}");
+                        Console.WriteLine($"{account.AccountType}\n\n\n");
+                    }
                 break;
             }
         }

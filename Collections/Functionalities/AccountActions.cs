@@ -30,6 +30,10 @@ namespace Functionalities
             return acccount;
         }
 
+        public List<Account> GetAccounts() 
+        { 
+            return _accounts.ToList(); 
+        }
 
         private string GenerateAccountNumber()
         {
