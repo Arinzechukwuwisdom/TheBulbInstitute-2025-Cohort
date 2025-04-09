@@ -32,5 +32,10 @@ namespace Functionalities
             customers.Add(newCustomer);
             return newCustomer;
         }
+        public List<Account> GetAllAccounts()
+        {
+            var accounts = accountActions.GetAccounts();
+            return accounts.ToList();
+        }
     }
 }

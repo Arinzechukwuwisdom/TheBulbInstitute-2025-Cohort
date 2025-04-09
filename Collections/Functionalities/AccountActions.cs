@@ -9,13 +9,7 @@ namespace Functionalities
 {
     internal class AccountActions
     {
-        private readonly List<Account> _accounts;
-
-        public AccountActions()
-        {
-            _accounts = new List<Account>();
-        }
-
+        private static readonly List<Account> _accounts = new List<Account>();
         public Account CreateAccount(string firstname, string lastname, string accountType)
         {
             var accountNumber = GenerateAccountNumber();
@@ -35,6 +29,23 @@ namespace Functionalities
             return _accounts.ToList(); 
         }
 
+        public Account GetAccount(string accountNumber)
+        {
+            return _accounts.SingleOrDefault(x => x.AccountNumber == accountNumber);
+        }
+
+        public double CheckAccountBalance(string accountNumber)
+        {
+            var account = _accounts.SingleOrDefault(x => x.AccountNumber == accountNumber);
+            return account.AccountBalance;
+        }
+
+        public double Deposit(string accNum, double amount)
+        {
+            var account = _accounts.SingleOrDefault(x => x.AccountNumber == accNum);
+            account.AccountBalance += amount;
+            return account.AccountBalance;
+        }
         private string GenerateAccountNumber()
         {
             Random random = new Random();

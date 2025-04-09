@@ -96,6 +96,8 @@ namespace Dialogs_
                     Console.WriteLine($"Account Type: {customerAccount.Account.AccountType}"); 
                         
                     Thread.Sleep(5000);
+
+
                     Console.WriteLine("Would you like to carry out another operation");
                         
                     
@@ -135,9 +137,9 @@ namespace Dialogs_
                 break;
                 case 8:
                     var accounts = generalActions.GetAllAccounts();
+                    Console.WriteLine("\n\n All Account Details");
                     foreach ( var account in accounts )
                     {
-                        Console.WriteLine("\n\nAccount Details");
                         Console.WriteLine($"{account.AccountNumber}");
                         Console.WriteLine($"{account.AccountName}");
                         Console.WriteLine($"{account.AccountType}\n\n\n");
