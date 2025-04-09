@@ -28,6 +28,7 @@ namespace Dialogs_
             Console.WriteLine("5: Withdraw");
             Console.WriteLine("6: Close Account");
             Console.WriteLine("7: Exit Application");
+
             var choice = Convert.ToInt32 (Console.ReadLine());
             HandleUserChoice(choice);
         }
