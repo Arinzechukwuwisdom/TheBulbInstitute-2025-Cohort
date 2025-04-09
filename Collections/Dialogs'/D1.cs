@@ -19,6 +19,7 @@ namespace Dialogs_
 
         public void EntryDialog2()
         {
+
             Console.WriteLine("Please make a selection to proceed");
             Console.WriteLine("1: Create Account");
             Console.WriteLine("2: Check Balance");
@@ -63,8 +64,47 @@ namespace Dialogs_
                     };
                     var customerAccount = customerActions.CreateCustomerAccount(customer, accTypeVal);
                     Console.WriteLine("You have successfully created your account");
+                    Console.WriteLine("Account Details");
                     Console.WriteLine($"Account Number: {customerAccount.Account.AccountNumber}");
-                    Console.WriteLine($"Account Type: {customerAccount.Account.AccountType}");
+                    Console.WriteLine($"Account Type: {customerAccount.Account.AccountType}"); 
+                        
+                    Thread.Sleep(5000);
+                    Console.WriteLine("Would you like to carry out another operation");
+                        
+                    
+                    bool isRightNumber = false;
+                    do
+                    {
+                        Console.WriteLine("Enter 1 to do something else or 2 to exit the application ");
+
+                        var choice2 = Console.ReadLine();
+                        int parsedChoice;
+
+                        bool isCorrect = int.TryParse(choice2, out parsedChoice);
+                        if (isCorrect)
+                        {
+                            if (parsedChoice == 1)
+                            {
+                                EntryDialog2();
+                                isRightNumber = true;
+                            }
+                            else if (parsedChoice == 2)
+                            {
+                                Console.WriteLine("Thank you for banking with us");
+                                isRightNumber = true;
+                            }
+                            else
+                            {
+                                Console.Write("You have entered a wrong choice");
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("You have entered an invalid character");
+                        }
+
+                    } while (isRightNumber == false);
+                                        
                 break;
             }
         }
