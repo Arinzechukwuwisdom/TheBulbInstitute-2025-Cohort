@@ -7,7 +7,7 @@ namespace Functionalities
         private AccountActions accountActions = new AccountActions();
         public List<Account> GetAllAccounts()
         {
-            var accounts = accountActions.GetAccounts();
+            var accounts = accountActions.GetAllSomethingSomethingAccounts();
             return accounts.ToList();
         }
     }

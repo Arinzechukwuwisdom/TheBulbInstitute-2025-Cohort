@@ -24,7 +24,7 @@ namespace Functionalities
             return acccount;
         }
 
-        public List<Account> GetAccounts() 
+        public List<Account> GetAllSomethingSomethingAccounts() 
         { 
             return _accounts.ToList(); 
         }
