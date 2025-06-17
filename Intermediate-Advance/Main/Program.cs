@@ -1,4 +1,4 @@
-﻿using Collections;
+﻿using LINQ;
 //Bank<string> bank = new Bank<string>();
 
 //var bankOperation = bank.CreateAccount(bank.Id = "12345",
@@ -18,5 +18,12 @@
 //    Console.WriteLine($"Failed to create account: {bankOperation2.StatusCode}");
 //}
 
-var collection = new CollectionTypes();
-collection.GenericCollections();
+//var collection = new CollectionTypes();
+//collection.GenericCollections();
+
+var linq = new LinqSynthax();
+//linq.PrintUsers();
+
+var user = linq.ReturnUser();
+
+linq.PrintAllNames();
