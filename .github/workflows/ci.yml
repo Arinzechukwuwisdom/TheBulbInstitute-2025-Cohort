@@ -4,12 +4,10 @@ on:
   push:
     branches: [main]
     paths:
-      - "Intermediate-Advance/ci.yml"
       - "Intermediate-Advance/UnitTests/**"
   pull_request:
     branches: [main]
     paths:
-      - "Intermediate-Advance/ci.yml"
       - "Intermediate-Advance/UnitTests/**"
 
 jobs:
