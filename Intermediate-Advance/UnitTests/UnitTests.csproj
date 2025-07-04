@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ExceptionHandling\ExceptionHandling.csproj" />
     <ProjectReference Include="..\LINQ\LINQ.csproj" />
+    <ProjectReference Include="..\TodoList\TodoList.csproj" />
   </ItemGroup>
 
   <ItemGroup>

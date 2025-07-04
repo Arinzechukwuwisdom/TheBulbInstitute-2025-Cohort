@@ -1,4 +1,4 @@
-﻿using LINQ;
+﻿using Algorithms;
 //Bank<string> bank = new Bank<string>();
 
 //var bankOperation = bank.CreateAccount(bank.Id = "12345",
@@ -21,9 +21,12 @@
 //var collection = new CollectionTypes();
 //collection.GenericCollections();
 
-var linq = new LinqSynthax();
-//linq.PrintUsers();
+Console.WriteLine("Enter your deadfish commands");
+var value = Console.ReadLine();
 
-var user = linq.ReturnUser();
+var res = Deadfish.Parser(value);
+foreach (var item in res)
+{
+    Console.WriteLine(item);
 
-linq.PrintAllNames();
+}

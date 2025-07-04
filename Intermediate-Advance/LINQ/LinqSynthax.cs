@@ -158,7 +158,7 @@ namespace LINQ
         public List<string> PrintAllNames()
         {
             namesList.AddRange(nameList2);
-            return namesList.ToList();
+            return namesList;
         }
     }
 }
