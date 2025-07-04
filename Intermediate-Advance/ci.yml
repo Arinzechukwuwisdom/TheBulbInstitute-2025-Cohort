@@ -1,0 +1,31 @@
+name: Intermediate CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "Intermediate-Advance/ci.yml"
+      - "Intermediate-Advance/UnitTests/**"
+  pull_request:
+    branches: [main]
+    paths:
+      - "Intermediate-Advance/ci.yml"
+      - "Intermediate-Advance/UnitTests/**"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore Intermediate-Advance/UnitTests/UnitTests.csproj
+
+      - name: Run tests
+        run: dotnet test Intermediate-Advance/UnitTests/UnitTests.csproj --no-build --verbosity normal
