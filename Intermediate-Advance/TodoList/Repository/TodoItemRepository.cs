@@ -89,7 +89,7 @@ namespace TodoList.Repository
             }
         }
 
-        public async Task<List<TodoItem>> GetAllByUserId(int userId)
+        public async Task<List<TodoItem>> GetAll(int userId)
         {
             try
             {
