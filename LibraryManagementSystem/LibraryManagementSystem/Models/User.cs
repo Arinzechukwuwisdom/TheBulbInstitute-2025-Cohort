@@ -7,6 +7,7 @@ namespace LibraryManagementSystem.Models
         [Key]
         public Guid Id { get; set; }
         public required string Name { get; set; }
+        [DataType(DataType.EmailAddress)]
         public required string Email { get; set; }
         public required string Password { get; set; }
         public required int MembershipNumber { get; set; } //1, 2, 3, etc.

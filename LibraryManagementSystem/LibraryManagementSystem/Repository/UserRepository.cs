@@ -147,7 +147,7 @@ namespace LibraryManagementSystem.Repository
                 }
                 user.Name = userDetails.Name.ToUpper() ?? user.Name;
                 user.Email = userDetails.Email.ToLower() ?? user.Email;
-                user.Address = userDetails.Address.ToUpper() ?? user.Address;
+                user.Address = userDetails.Address.ToLower() ?? user.Address;
                 user.Password = userDetails.Password is not null
                     ? BCrypt.Net.BCrypt.HashPassword(userDetails.Password)
                     : user.Password;
