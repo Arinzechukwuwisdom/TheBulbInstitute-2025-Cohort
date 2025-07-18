@@ -410,3 +410,6 @@ FodyWeavers.xsd
 /Collections/.vs/ProjectEvaluation/collections.projects.v9.bin
 /Collections/.vs/ProjectEvaluation/collections.strings.v9.bin
 /Intermediate-Advance/TodoList/Secrets.cs
+/LibraryManagementSystem/LibraryManagementSystem/appsettings.Development.json
+/LibraryManagementSystem/LibraryManagementSystem/appsettings.json
+/TestAPI/TestAPI/appsettings.json
